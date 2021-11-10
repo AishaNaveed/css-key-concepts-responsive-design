@@ -10,7 +10,16 @@ body {
     background-color: var(--light);
 }
 
+.card-container{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .card {
+    border: 1px var(--teal) dashed;
     padding: 10px;
     margin: 10px;
 }
